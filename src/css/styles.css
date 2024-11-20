@@ -37,6 +37,22 @@ body {
   transform: scale(1.05);
 }
 
+.simple-lightbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.sl-wrapper button.sl-close {
+  color: #ffffff;
+}
+
+.sl-wrapper .sl-navigation button.sl-next,
+.sl-wrapper .sl-navigation button.sl-prev {
+  color: #ffffff;
+}
+
 /* Form */
 .feedback-form {
   max-width: 408px;
